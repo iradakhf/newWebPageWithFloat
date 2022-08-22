@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#textSection{
+  text-align: center;
+  width: 100%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+
+}
+
+#textSection h4{
+    color: rgb(0, 97, 242);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#textSection p{
+ padding-top: 0.5%;
+ color: rgb(105, 112, 122);
+ font-weight: 400px;
+ font-size: 17.6px;
+}
+#imagesAndSubTitle #section{
+    float: left;
+    width: 31%;
+    margin: 0% 1%;
+    transform: translate(y);
+}
+
+
+#imagesAndSubTitle img{
+    width: 90%;
+}
+#imagesAndSubTitle{
+    text-align: center;
+}
+
+#imagesAndSubTitle #section:hover{
+    float: left;
+    width: 31%;
+    margin: 0% 1%;
+    transform: translateY(-10px);
+}
